@@ -1,0 +1,104 @@
+/* Landing Page */
+
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    background-image: url(landing.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+  }
+  
+  #masthead {
+    position: relative;
+    height: auto;
+    top: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .header .menu img {
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 40px;
+  }
+  
+  .header .menu .close {
+    width: 30px;
+  }
+  
+  .header .menu ul {
+    text-align: center;
+    list-style: none;
+    color: #ffffff;
+    background: #fff;
+    margin: 0;
+    margin-right: -80px;
+    height: 100vh;
+    padding: 120% 0;
+    box-shadow: -5px 4px 20px 0px #a1b0c56b;
+    box-sizing: border-box;
+  }
+  
+  .header .menu li {
+    cursor: pointer;
+    font-size: .9rem;
+    width: 300px;
+    height: 40px;
+    background: #132758;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(161, 176, 197, 0.12);
+    box-sizing: border-box;
+  }
+  
+  .header nav {
+    display: flex;
+    position: absolute;
+    right: 80px;
+  }
+  
+  .landing .logo {
+    margin-top: 50px;
+    margin-left: 80px;
+    float: left;
+    width: 50px;
+  }
+  
+  .banner {
+    position: absolute;
+    left: 80px;
+    top: 180px;
+  }
+  
+  .banner h2 {
+    font-size: 4.2rem;
+    font-weight: bold;
+    width: 500px;
+    color: #132758;
+    margin: 0;
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 465px;
+    color: #A1B0C5;
+    margin: 30px 0;
+  }
+  
+  
+  .banner button {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fbfbfb;
+    background: #2dd6ff;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    border-style: none;
+  }

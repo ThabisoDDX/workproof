@@ -1,0 +1,180 @@
+/* Annual Leave */
+
+.leave {
+    box-shadow: -5px 4px 20px 0px #a1b0c56b;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 1%;
+    overflow: hidden;
+}
+
+.leave .history {
+    float: left;
+   width: 58%;
+   padding: 1%;
+}
+
+.leave .history header h3 {
+    float: left;
+    color: #132758;
+    font-size: 1.25rem;
+    margin: 10px 0;
+}
+
+.leave .history header ul {
+    text-align: center;
+    list-style: none;
+   float: right;
+   margin: 0;
+}
+
+.leave .history header ul li {
+    float: left;
+    color: #ffffff;
+    font-size: .75rem;
+    width: 90px;
+    height: 40px;
+    padding: 12px;
+    background: #A1B0C5;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-right: 5px;
+ }
+
+ .leave .table {
+     clear: both;
+ }
+
+ .leave .table ul {
+     width: 100%;
+     height: auto;
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     padding: 25px 0;
+     margin: 0;
+     border-top: 1px solid rgba(153, 153, 153, 0.1);
+ }
+
+ .leave .table ul:first-child {
+    border-top: none;
+}
+
+ .leave .table ul li {
+     font-size: .875rem;
+     color: #CFD1D1;
+     width: 120px;
+    display: block;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.leave .table li:first-child { 
+  flex-basis: 60%;
+  margin-left: 0;
+  padding: 0;
+}
+
+.leave .table ul:first-child li { 
+    color: #A1B0C5;
+    font-weight: 700;
+}
+
+.leave .table ul:first-child li:last-child { 
+    color: #A1B0C5;
+    font-weight: 700;
+}
+
+.leave .table ul li:last-child { 
+    color: #132758;
+    font-weight: 700;
+}
+
+.leave .table ul:first-child li:first-child mark { 
+    visibility: hidden;
+}
+
+.leave .table ul:first-child li:first-child span { 
+    padding-top: 10px;
+}
+  
+  
+ .leave .table ul li mark {
+     background: none;
+}
+ 
+ .table ul li img {
+    float: left;
+    width: 18px;
+    height: auto;
+    padding: 12px 10px;
+    background: #2DD6FF;
+    margin-right: 15px;
+}
+
+.table ul li span {
+    color: #A1B0C5;
+   display: block;
+}
+
+.leave .balance {
+    width: 40%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin: 3% 0;
+}
+
+.leave .balance figure {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    border: 5px solid #132758;
+    border-radius: 50%;
+}
+
+.leave .balance figure h4 {
+    color: #2DD6FF;
+   font-size: 2rem;
+   font-weight: normal;
+   margin-bottom: 0;
+}
+
+.leave .balance figure p {
+    color: #CFD1D1;
+    font-size: .875rem;
+    margin: 0;
+}
+
+.leave .balance ul {
+    font-size: .875rem;
+    width: 80%;
+    display: flex;
+    margin: 10% 9%;
+}
+
+.leave .balance ul li {
+    text-align: left;
+    color: #132758;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+.leave .balance ul li span {
+    color: #CFD1D1;
+   display: block;
+   margin: 0;
+   text-align: left;
+}
+
+.leave .balance button {
+    color: #ffffff;
+    background: #132758;
+    padding: 15px 20px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.leave .balance button img {
+    margin-right: 15px;
+}

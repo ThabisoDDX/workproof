@@ -1,0 +1,73 @@
+/* Weekly Performance */
+
+.weekly-card {
+    float: left;
+    width: 19%;
+    height: 19%;
+    margin-top: 30px;
+    margin-right: 1.4%;
+    padding: 1.5%;
+    box-sizing: border-box;
+    background: #ffffff;
+    box-shadow: -5px 4px 20px 0px #a1b0c56b;
+    border-radius: 5px;
+}
+
+.weekly-card header {
+    float: left;
+}
+
+.weekly-card header img {
+    float: left;
+    margin-right: 10px;
+}
+
+.weekly-card header h4 {
+    float: right;
+    margin: 1px 0;
+    padding: 0;
+    color: #132758;
+}
+
+.week {
+    font-size: 12px;
+    float: right;
+    margin: 5px 0;
+}
+
+.week a {
+    color: #CFD1D1;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.week img {
+    width: 10px;
+}
+
+.weekly-card .graph h3 {
+    color: #2DD6FF;
+    font-size: 2.625rem;
+    margin: 0;
+    clear: both;
+}
+
+.weekly-card .graph figure {
+    width: 100%;
+    margin: 0;
+}
+
+.weekly-card .graph img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.weekly-card .graph a {
+    text-decoration: none;
+    color: #CFD1D1;
+    float: right;
+    font-size: .75rem;
+}
+
+
+/* End Weekly Ratings */

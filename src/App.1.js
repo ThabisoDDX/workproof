@@ -4,6 +4,7 @@ import Signin from './components/Signin/Signin';
 import Signup from './components/Signup/Signup';
 import './App.css';
 import Dashboard from './components/dashboard/Dashboard';
+import Employee from './components/Employee/Employee';
 
 class App extends Component {
   constructor() {
@@ -43,6 +44,7 @@ class App extends Component {
        { route === 'dashboard' 
           ? <div> 
               <Dashboard onRouteChange={this.onRouteChange} />
+              <Employee /> 
             </div>
           : (
             route === 'signin'
@@ -54,7 +56,7 @@ class App extends Component {
                 }
             </div>
             : <div>
-                 <Home toggleForm={this.toggleForm} />
+                <Home />
                 { this.state.showForm
                 ? <Signup loadUser={this.loadUser} onRouteChange={this.onRouteChange} />
                 : null

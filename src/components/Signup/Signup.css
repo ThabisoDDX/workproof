@@ -1,0 +1,53 @@
+.form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 44%;
+    height: 100vh;
+    background: #132758;
+    padding: 5% 8%;
+    box-sizing: border-box;
+}
+
+.logowhite {
+    width: 150px;
+}
+
+.form p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 60px 0;
+}
+
+.signin ul {
+    padding: 0;
+    list-style: none;
+    color: #ffffff;
+}
+
+.signin ul li {
+    cursor: pointer;
+    font-weight: 400;
+   float: left;
+   margin: 10px 5px;
+}
+
+.signin input {
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    padding: 25px 20px;
+    border-style: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+.signin input:last-child {
+    font-weight: 600;
+    background: #2dd6ff;
+    color: white;
+}

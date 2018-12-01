@@ -1,0 +1,79 @@
+/* overall performance rating */
+
+.overrall-card {
+    float: left;
+    width: 60%;
+    height: 27.7777778%;
+    padding: 1.5%;
+    background: #ffffff;
+    box-shadow: -5px 4px 20px 0px #a1b0c56b;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.overrall-card header {
+   float: left;
+}
+
+.overrall-card header img {
+    float: left;
+}
+
+.overrall-card header h4 {
+    color: #132758;
+    float: left;
+    margin: 1px 10px;
+}
+
+.overrall-card header a {
+    color:#CFD1D1;
+    text-decoration: none;
+    font-size: .75rem;
+    float: left;
+    margin-top: 4px;
+}
+
+.overrall-card .annual {
+    float: right;
+}
+
+.overrall-card .annual a {
+    color:#CFD1D1;
+    text-decoration: none;
+    font-size: .75rem;
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.overrall-card .annual img {
+    width: 10px;
+    height: auto;
+    margin-top: 8px;
+ } 
+
+.overrall-card .graph {
+   clear: both;
+}
+
+.overrall-card .graph h3 {
+    color: #2DD6FF;
+    font-size: 2.625rem;
+    margin-left: 25px;
+ }
+
+.overrall-card .graph img {
+    width: 100%;
+    margin: 10px 0;
+ }
+
+.overrall-card .graph ul {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+ } 
+
+/* End Overrall Performance Rating */

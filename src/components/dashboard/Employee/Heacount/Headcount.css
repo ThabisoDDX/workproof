@@ -1,0 +1,9 @@
+.headcount {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headcount div {
+    margin-bottom: 2%;
+    margin-right: 2%;
+}

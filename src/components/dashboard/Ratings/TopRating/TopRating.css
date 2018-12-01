@@ -1,0 +1,135 @@
+/* Top Performers */
+
+.top-ratings {
+    float: right;
+    width: 38.5%;
+    height: 50.9259259%;
+    padding: 2%;
+    background: #ffffff;
+    box-shadow: -5px 4px 20px 0px #a1b0c56b;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.top-ratings header ul:first-child {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-ratings header h4 {
+    color: #132758;
+    list-style: none;
+    margin: 1px 10px;
+}
+
+.top-ratings header ul:last-child li {
+    color:#CFD1D1;
+    font-size: .75rem;
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.top-ratings header ul:last-child img {
+    width: 10px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.top-ratings header ul:first-child li {
+    float: left;
+}
+
+.top-ratings header ul:first-child li {
+    float: left;
+}
+
+.top-ratings header ul:last-child {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.top-card {
+    float: left;
+    width: 100%;
+    clear: both;
+    margin: 2.2% 0;
+}
+
+.top-card div:first-child {
+    margin-top: 10px;
+}
+
+.top-card .top-title {
+    float: left;
+}
+
+.top-card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-card .top-title figure {
+    float: left;
+    width: 70px;
+    height: 70px;
+    background: #CFD1D1;
+    margin: 0;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.top-card .top-title {
+    width: 60%;
+}
+
+.top-card .top-title ul {
+    margin: 1px 0;
+}
+
+.top-card .top-title img {
+    margin-right: 5px;
+}
+
+.top-card .top-title li {
+    font-weight: 600;
+    color: #2DD6FF;
+}
+
+.top-card .scores {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 0;
+}
+
+.top-card .scores li {
+   color: #132758;
+   font-weight: 600;
+   flex: 1 0 auto;
+   margin-left: 10px;
+}
+
+.top-card .scores img {
+    width: 12px;
+    margin-right: 5px;
+ }
+
+.top-card .top-title h3 {
+    color: #132758;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.top-card .top-title h4 {
+    color: #CFD1D1;
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+/* End Top Performance */

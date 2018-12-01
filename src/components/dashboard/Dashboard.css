@@ -1,0 +1,27 @@
+.dashboard {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+
+/* Main Content */
+
+.main-content {
+    float: right;
+    width: 95.89%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-content img {
+    width: 18px;
+    height: auto;
+}
+
+/* --------------------------------------- */
+
+
+
+
